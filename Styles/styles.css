@@ -288,6 +288,7 @@
     width: 1140px;
     height: 463px;
     margin: 0 auto;
+    margin-bottom: 111px;
 }
 .written_content_for_target
 {
@@ -415,3 +416,225 @@ margin-top: 24px;
     background-color: rgba(255, 223, 0, 0.05);
 }
 /* inspiration ends */
+
+/* next target */
+.my_next_target_container
+{
+    width: 1140px;
+    height: 1071px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.next_target_container_texts
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 0 auto;
+}
+.next_target_container_texts h2
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 852px;
+    height: 39px;
+}
+.next_target_container_texts p
+{
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 852px;
+    height: 52px;
+}
+
+.next_target_component
+{
+    display: flex;
+    margin-top: 48px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background: rgb(255, 255, 255);
+}
+
+.next_target_texts
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.next_target_texts h1
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 852px;
+    height: 39px;
+}
+.next_target_texts h6
+{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    width: 941.22px;
+    height: 20px;
+}
+.next_target_texts p
+{
+    margin-top: 8px;
+    width: 852px;
+    height: 52px;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.next_target_logos
+{    
+    /* width: 94.78px;
+    height: 108px; */
+    margin: 0px 24px;
+}
+.next_target_logos img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 94.78px;
+    height: 84.41px; */
+}
+
+/* i need support */
+.i_need_support
+{
+    background-image: url(../assets/handshake.jpg);
+    background-blend-mode: darken;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    padding: 64px 48px 64px 48px;
+    background: rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(../assets/handshake.jpg);;
+}
+.support_content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1044px;
+    height: 186px;
+    margin: 0 auto;
+    padding: 64px 48px 64px 48px;
+}
+.support_content h1
+{
+    /* width: 230px; */
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;  
+    margin: 0 auto;
+}
+.support_content p
+{
+    width: 606px;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;   
+    margin-bottom: 24px;
+}
+.input_section button
+{
+    width: 120px;
+    height: 58px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+}
+.input_section input
+{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+.input_section input placeholder
+{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.input_section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
