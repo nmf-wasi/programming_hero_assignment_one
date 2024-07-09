@@ -109,7 +109,7 @@
     align-items: center;
     margin-top: 74px;
     padding: 80px 97px 80px 97px;
-    background-color: rgba(13, 19, 33, 0.02);
+    background-color: #FAFAFB;
 }
 .why_web_development h3
 {
@@ -144,6 +144,8 @@
     flex-direction: row;
     justify-content: space-between;
     border-radius: 16px;
+    background-color: #FCFCFD;
+    
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     /* background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
 }
@@ -158,6 +160,8 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     border-radius: 16px;
+    background-color: #FCFCFD;
+    /* box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px; */
     /* box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px; */
     /* background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); */
 }
@@ -213,7 +217,7 @@
 .why_web_dev_text button
 {    
     margin-top: 16px;
-    padding: 12px 20px 12px 20px;
+    /* padding: 12px 20px 12px 20px; */
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -221,4 +225,58 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.my_inspiration
+{
+    margin-top: 88px;
+    width: 1140px;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+.my_inspiration h3
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    width: 852px;
+    height: 39px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 88px;
+}
+.my_inspiration p
+{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    width: 852px;
+    height: 52px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    opacity: 0.7;
+}
+.yt_vid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;    
+}
+
+.yt_vid iframe
+{
+    border-radius: 16px;
 }
