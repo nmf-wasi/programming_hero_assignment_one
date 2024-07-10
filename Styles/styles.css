@@ -40,18 +40,24 @@
     padding: 21px 24px 24px 24px;
     text-align: center;   
     text-decoration: none;
-    text-decoration: white;
+    color: rgb(13, 19, 33);
+    background-color: white;
 }
 
-.navbar > button:enabled
-{
-    text-decoration: none;
-    text-decoration: white;
-}
 .navbar > button >a
 {
     color: rgb(13, 19, 33);
     text-decoration: none;
+}
+.navbar > button:hover
+{
+    background-color: rgb(13, 19, 33);
+    color: white;
+}
+.navbar > button > a:hover
+{
+    background-color: rgb(13, 19, 33);
+    color: white;
 }
 /* bannar styles */
 .bannar_container
@@ -110,10 +116,21 @@
     letter-spacing: 0%;
     text-align: center;
 }
+.bannar_contents button:hover
+{
+    color: rgb(13, 19, 33);
+    background: rgb(255, 255, 255);
+}
 .bannar_contents button a
 {
     color: #FAFAFB;
     text-decoration: none;
+}
+.bannar_contents button a:hover
+{
+    
+    color: rgb(13, 19, 33);
+    background: rgb(255, 255, 255);
 }
 /* main styles */
 
@@ -272,12 +289,20 @@
 .why_web_dev_text button a
 {
     text-decoration: none;
+    background-color: white;
     color: rgb(13, 19, 33);
 }
-.why_web_dev_text button:enabled
+.why_web_dev_text_container > button:hover
 {
     text-decoration: none;
-    color: rgb(13, 19, 33);
+    color: white;
+    background-color: rgb(13, 19, 33);
+}
+.why_web_dev_text_container > button a:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(13, 19, 33);
 }
 .my_inspiration
 {
@@ -457,6 +482,11 @@
     color: rgb(13, 19, 33);
     /* text-decoration: none; */
 }
+.html h6 a:hover
+{
+    background-color: black;
+    color: white;
+}
 #html_bg
 {
     background: rgba(255, 76, 30, 0.05);
@@ -566,6 +596,11 @@
 .next_target_texts h6 a
 {
     color: rgb(13, 19, 33);
+}
+.next_target_texts h6 a:hover
+{
+    color: white;
+    background-color: black;
 }
 .next_target_texts p
 {
