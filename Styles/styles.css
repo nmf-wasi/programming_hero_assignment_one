@@ -59,6 +59,8 @@
     background-color: rgb(13, 19, 33);
     color: white;
 }
+/* nav bar ends */
+
 /* bannar styles */
 .bannar_container
 {
@@ -352,11 +354,12 @@
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;    
 }
-
 .yt_vid iframe
 {
     border-radius: 16px;
 }
+/* why web dev ends */
+
 /* current target box */
 .my_current_target_container
 {
@@ -632,6 +635,7 @@
     height: 84.41px; */
 }
 /* next target done */
+
 /* i need support */
 .support
 {
