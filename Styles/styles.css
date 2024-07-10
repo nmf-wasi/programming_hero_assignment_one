@@ -33,17 +33,26 @@
     opacity: 0.8;
     width: 258px;
     height: 58px;
-    color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    padding: 10px 20px;
+    padding: 21px 24px 24px 24px;
     text-align: center;   
     text-decoration: none;
     text-decoration: white;
 }
 
+.navbar > button:enabled
+{
+    text-decoration: none;
+    text-decoration: white;
+}
+.navbar > button >a
+{
+    color: rgb(13, 19, 33);
+    text-decoration: none;
+}
 /* bannar styles */
 .bannar_container
 {
@@ -97,6 +106,11 @@
     letter-spacing: 0%;
     text-align: center;
 }
+.bannar_contents button a
+{
+    color: #FAFAFB;
+    text-decoration: none;
+}
 /* main styles */
 
 /* why web dev */
@@ -104,7 +118,6 @@
 {
     width: 1140px;
     height: 1395px;
-    border: 2px solid lavender;
     border-radius: 16px;
     margin: 0 auto;
     display: flex;
@@ -162,7 +175,7 @@
     border-radius: 16px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border-radius: 16px;
     background-color: #FCFCFD;
     /* box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px; */
@@ -171,6 +184,8 @@
 }
 .why_web_dev_contianer_2 >.why_web_dev_text >.why_web_dev_text_container h4
 {
+    /* width: 390px; */
+    height: 72px;
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -178,8 +193,19 @@
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
-    width: 477px;
+}
+.why_web_dev_text_container > h4
+{
+    width: 590px;
     height: 72px;
+    margin: 16px 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .why_web_dev_contianer_2 >.why_web_dev_text >.why_web_dev_text_container p
 {
@@ -193,9 +219,18 @@
     width: 468px;
     height: 52px;
 }
+.why_web_dev_text_container > button
+{
+    width: 150px;
+    height: 48px;
+    background-color: white;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
 .why_web_dev_text h4
 {    
-    width: 390px;
+    /* width: 390px; */
     height: 72px;color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -230,7 +265,16 @@
     letter-spacing: 0%;
     text-align: center;
 }
-
+.why_web_dev_text button a
+{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+.why_web_dev_text button:enabled
+{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
 .my_inspiration
 {
     margin-top: 88px;
