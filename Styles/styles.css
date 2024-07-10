@@ -81,6 +81,10 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: 24px;
+    opacity: 0.7;
+    width: 852px;
+    height: 52px;
 }
 .bannar_contents h1
 {
@@ -559,6 +563,10 @@
     width: 941.22px;
     height: 20px;
 }
+.next_target_texts h6 a
+{
+    color: rgb(13, 19, 33);
+}
 .next_target_texts p
 {
     margin-top: 8px;
@@ -590,10 +598,18 @@
 }
 
 /* i need support */
+.support
+{
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 1140px;
+    height: 314px;
+    /* background-color: black; */
+}
 .i_need_support
 {
     background-image: url(../assets/handshake.jpg);
-    background-blend-mode: darken;
+    /* opacity: 0.9; */
     border: none;
     background-repeat: no-repeat;
     background-position: center;
@@ -604,7 +620,7 @@
     border-radius: 16px;
     margin-bottom: 16px;
     padding: 64px 48px 64px 48px;
-    background: rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(../assets/handshake.jpg);;
+    /* background: rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(../assets/handshake.jpg);; */
 }
 .support_content
 {
@@ -629,6 +645,7 @@
     letter-spacing: 0%;
     text-align: center;  
     margin: 0 auto;
+    
 }
 .support_content p
 {
@@ -656,7 +673,7 @@
     letter-spacing: 0%;
     text-align: center;
     border-radius: 8px;
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
     padding: 17px 20px 17px 20px;
 }
 .input_section input
@@ -679,6 +696,7 @@ background: rgb(255, 255, 255);
     line-height: 19px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.7;
 }
 .input_section
 {
@@ -732,4 +750,8 @@ background: rgb(255, 255, 255);
 .footer_logos 
 {
     margin-top: 40%;
+}
+.footer_logos img
+{
+    padding: auto;
 }
